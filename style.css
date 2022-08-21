@@ -1,0 +1,64 @@
+                /* IMPORTAÇÕES */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+ 
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+                /* VARIAVEIS */
+
+:root{
+
+        /* FONTES */
+
+    --font1: 'Inter', sans-serif;
+    --font2: 'Lexend Deca', sans-serif;
+}
+                /* CONFIGURAÇÕES GERAIS */
+
+*{
+    padding: 0;
+    margin: 0;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: var(--font1)
+}
+
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+
+main{
+    height: 97vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    max-width: 1000px
+}
+
+.container > .info {
+    display: flex;
+    flex-direction: column;
+    background: hsl(244, 38%, 16%);
+    padding: 50px 60px 50px 50px;
+    width: 800px;
+}
+
+.container > .info > .texto > h1{
+    background-color: blue;
+    margin-bottom: 30px
+}
+
+.container > .info > .texto > p{
+    background-color: red;
+    margin-bottom: 50px
+}
+
+.container > .info > .itens{
+    display: flex;
+    background: green
+}
